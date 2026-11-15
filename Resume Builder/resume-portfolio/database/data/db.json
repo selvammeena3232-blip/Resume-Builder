@@ -1,0 +1,190 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "System Administrator",
+      "email": "admin@foliofy.com",
+      "password": "admin",
+      "role": "System Administrator",
+      "status": "Approved",
+      "isAdmin": true,
+      "joined": "2025-11-01",
+      "resumesCount": 12
+    },
+    {
+      "id": "2",
+      "name": "Alex Morgan",
+      "email": "alex.morgan@devstudio.io",
+      "password": "password123",
+      "role": "Software Engineer",
+      "status": "Approved",
+      "isAdmin": false,
+      "joined": "2026-01-12",
+      "resumesCount": 4
+    },
+    {
+      "id": "3",
+      "name": "Sarah Jenkins",
+      "email": "sarah.jenkins@productlead.co",
+      "password": "password123",
+      "role": "Product Manager",
+      "status": "Approved",
+      "isAdmin": false,
+      "joined": "2026-02-04",
+      "resumesCount": 2
+    },
+    {
+      "id": "4",
+      "name": "David Chen",
+      "email": "david@chen-design.studio",
+      "password": "password123",
+      "role": "UX Designer",
+      "status": "Approved",
+      "isAdmin": false,
+      "joined": "2026-03-19",
+      "resumesCount": 3
+    }
+  ],
+  "resumes": {
+    "1": {
+      "personalInfo": {
+        "fullName": "Ryan Carter",
+        "jobTitle": "Senior Full Stack Engineer & System Architect",
+        "email": "ryan.carter@devstudio.io",
+        "phone": "+1 (555) 234-5678",
+        "location": "San Francisco, CA",
+        "website": "https://ryancarter.dev",
+        "github": "https://github.com/ryancarter",
+        "linkedin": "https://linkedin.com/in/ryancarter",
+        "photoUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80",
+        "bio": "Passionate Senior Full Stack Engineer with 6+ years of experience building high-performance web applications, resilient backend microservices, and interactive developer tooling. Specialized in React, Node.js, TypeScript, and modern cloud architecture."
+      },
+      "experiences": [
+        {
+          "id": "exp-1",
+          "company": "Apex Tech Innovations",
+          "role": "Senior Full Stack Engineer",
+          "location": "San Francisco, CA",
+          "startDate": "2023-01",
+          "endDate": "Present",
+          "description": "• Spearheaded the development of a real-time collaborative dashboard used by 120k+ daily active users.\n• Optimized frontend bundle sizes by 40% using dynamic code splitting and reduced API latency by 35% with Redis caching.\n• Architected micro-frontend modules enabling independent deployment cycles across 4 engineering teams."
+        },
+        {
+          "id": "exp-2",
+          "company": "Vanguard Software Solutions",
+          "role": "Frontend Specialist & UI Lead",
+          "location": "Austin, TX",
+          "startDate": "2020-06",
+          "endDate": "2022-12",
+          "description": "• Architected a reusable React component library and design system adopted across 8 cross-functional engineering teams.\n• Mentored 5 junior developers and achieved 99.8% unit test coverage across core checkout flows."
+        }
+      ],
+      "education": [
+        {
+          "id": "edu-1",
+          "school": "University of California, Berkeley",
+          "degree": "B.S. in Computer Science",
+          "location": "Berkeley, CA",
+          "startDate": "2016-08",
+          "endDate": "2020-05",
+          "description": "Graduated Magna Cum Laude. Co-founder of the Web Development Society. Coursework in Data Structures, Algorithms, Operating Systems, and Distributed Systems."
+        }
+      ],
+      "skills": [
+        {
+          "id": "sk-1",
+          "name": "React & Next.js",
+          "level": "Expert"
+        },
+        {
+          "id": "sk-2",
+          "name": "TypeScript & JavaScript",
+          "level": "Expert"
+        },
+        {
+          "id": "sk-3",
+          "name": "Node.js & GraphQL",
+          "level": "Advanced"
+        },
+        {
+          "id": "sk-4",
+          "name": "Python / FastAPI",
+          "level": "Advanced"
+        },
+        {
+          "id": "sk-5",
+          "name": "Tailwind CSS & CSS Systems",
+          "level": "Expert"
+        },
+        {
+          "id": "sk-6",
+          "name": "PostgreSQL & Redis",
+          "level": "Intermediate"
+        },
+        {
+          "id": "sk-7",
+          "name": "Docker & AWS Cloud",
+          "level": "Intermediate"
+        },
+        {
+          "id": "sk-8",
+          "name": "CI/CD & Automated Testing",
+          "level": "Advanced"
+        }
+      ],
+      "projects": [
+        {
+          "id": "proj-1",
+          "title": "CloudFlow Architecture Visualizer",
+          "technologies": "React, D3.js, WebGL, Node.js",
+          "link": "https://cloudflow.dev",
+          "description": "Interactive browser-based visualization tool for microservices and cloud resource dependencies with real-time health telemetry."
+        },
+        {
+          "id": "proj-2",
+          "title": "DevSprint AI Assistant CLI",
+          "technologies": "TypeScript, OpenAI API, Commander.js",
+          "link": "https://github.com/alexmorgan/devsprint",
+          "description": "Command-line assistant that automates code review analysis, PR generation, and git commit summaries."
+        }
+      ],
+      "certifications": [
+        {
+          "id": "cert-1",
+          "title": "AWS Certified Solutions Architect – Associate",
+          "issuer": "Amazon Web Services",
+          "date": "2023-04"
+        },
+        {
+          "id": "cert-2",
+          "title": "Meta Certified Professional Frontend Developer",
+          "issuer": "Meta",
+          "date": "2022-09"
+        }
+      ],
+      "languages": [
+        {
+          "id": "lang-1",
+          "name": "English",
+          "level": "Native / Fluent"
+        },
+        {
+          "id": "lang-2",
+          "name": "Spanish",
+          "level": "Conversational"
+        }
+      ],
+      "customization": {
+        "activeTemplate": "cascade",
+        "themeColor": "#0f766e",
+        "fontFamily": "Plus Jakarta Sans",
+        "fontSize": "normal",
+        "lineSpacing": "normal",
+        "paperMargin": "normal",
+        "showPhoto": true,
+        "darkMode": false
+      }
+    }
+  },
+  "otps": {}
+}

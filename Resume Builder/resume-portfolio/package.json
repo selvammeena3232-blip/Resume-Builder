@@ -1,0 +1,21 @@
+{
+  "name": "foliofy-fullstack-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev": "npm run start",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "node backend/server.js",
+    "build": "cd frontend && npm run build"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "nodemailer": "^9.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
